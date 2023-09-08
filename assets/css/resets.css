@@ -1,0 +1,22 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 400;
+    color: var(--color-dark-electric-blue);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: var(--bs-dark);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::-ms-input-placeholder {
+    color: var(--color-gunmetal-opacity);
+}
+
+::placeholder {
+    color: var(--color-gunmetal-opacity);
+}

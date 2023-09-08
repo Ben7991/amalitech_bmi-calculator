@@ -1,0 +1,15 @@
+:root {
+    --color-blue: #345ff6;
+    --color-blue-opacity: rgba(52, 95, 246, 0.2);
+    --color-gunmetal: #253347;
+    --color-gunmetal-opacity: rgba(31,51,71,0.25);
+    --color-dark-electric-blue: #5e6e85;
+    --color-border: #d8e2e7;
+
+    --heading-size-xl: 4em;
+    --heading-size-l: 3em;
+    --heading-size-m: 1.5em;
+    --heading-size-s: 1.25em;
+    --body-size-m: 1em;
+    --body-size-s: 0.875em;
+}
