@@ -5,6 +5,7 @@
     --color-gunmetal-opacity: rgba(31,51,71,0.25);
     --color-dark-electric-blue: #5e6e85;
     --color-border: #d8e2e7;
+    --color-bg-gradient: linear-gradient(to bottom right, var(--bs-white), var(--color-blue-opacity));
 
     --heading-size-xl: 4em;
     --heading-size-l: 3em;
