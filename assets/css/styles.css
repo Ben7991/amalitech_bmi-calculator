@@ -67,6 +67,15 @@
     gap: 16px;
 }
 
+.header__measurement--imperial {
+    display: none;
+    gap: 0 !important;
+}
+
+.header__measurement-imperial-mb {
+    margin-bottom: 16px;
+}
+
 .header__measurement-type {
     border: 1px solid var(--color-border);
     width: 100%;
