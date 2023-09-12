@@ -117,6 +117,8 @@
 .header__measurement-unit-choice {
     margin-top: 24px;
     margin-bottom: 24px;
+    display: flex;
+    align-items: center;
 }
 
 @media (min-width: 768px) {
