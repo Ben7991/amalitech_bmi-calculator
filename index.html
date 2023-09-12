@@ -31,13 +31,13 @@
                     <div class="header__measurement-unit-choice">
                         <div class="col-6">
                             <label class="header__measurement-label">
-                                <input class="header__measurement-radio" type="radio" name="unit"/>
+                                <input class="header__measurement-radio" type="radio" name="unit" value="metrics"/>
                                 Metrics
                             </label>
                         </div>
                         <div class="col-6">
                             <label class="header__measurement-label">
-                                <input class="header__measurement-radio" type="radio" name="unit"/>
+                                <input class="header__measurement-radio" type="radio" name="unit" value="imperial"/>
                                 Imperial
                             </label>
                         </div>
@@ -55,6 +55,35 @@
                             <div class="d-flex w-100 p-3 header__measurement-type">
                                 <input type="text" class="header__calculator-input" placeholder="0" id="weight">
                                 <h4 class="header__measurement-unit">kg</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__measurement header__measurement--imperial">
+                        <div class="header__measurement-imperial-mb">
+                            <label class="header__calculator-label">Height</label>
+                            <div class="d-flex gap-3">
+                                <div class="d-flex w-100 p-3 header__measurement-type">
+                                    <input type="text" class="header__calculator-input" placeholder="0">
+                                    <h4 class="header__measurement-unit">ft</h4>
+                                </div>
+                                <div class="d-flex w-100 p-3 header__measurement-type">
+                                    <input type="text" class="header__calculator-input" placeholder="0">
+                                    <h4 class="header__measurement-unit">in</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="header__calculator-label">Weight</label>
+                            <div class="d-flex gap-3">
+                                <div class="d-flex w-100 p-3 header__measurement-type">
+                                    <input type="text" class="header__calculator-input" placeholder="0">
+                                    <h4 class="header__measurement-unit">st</h4>
+                                </div>
+                                <div class="d-flex w-100 p-3 header__measurement-type">
+                                    <input type="text" class="header__calculator-input" placeholder="0">
+                                    <h4 class="header__measurement-unit">lbs</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
