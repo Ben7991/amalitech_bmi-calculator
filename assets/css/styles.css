@@ -126,6 +126,28 @@
     align-items: center;
 }
 
+.header__result-info {
+    color: var(--bs-white);
+}
+
+.header__result-answer-heading {
+    font-size: var(--heading-size-l);
+    color: var(--bs-white);
+}
+
+.header__result-description-info {
+    font-size: var(--body-size-s);
+    line-height: 1.7;
+}
+
+.header__result-info-value {
+    font-weight: 600;
+}
+
+.header__result-answer {
+    margin-bottom: 30px;
+}
+
 @media (min-width: 768px) {
     .header__measurement {
         flex-direction: row;
@@ -139,6 +161,17 @@
     .header__result {
         padding: 32px;
         border-radius: 16px 99px 99px 16px;
+    }
+
+    .header__result-info {
+        display: flex;
+        align-items: center;
+    }
+
+    .header__result-answer,
+    .header__result-description {
+        flex-basis: 50%;
+        margin: 0;
     }
 }
 
