@@ -63,11 +63,11 @@
                             <label class="header__calculator-label">Height</label>
                             <div class="d-flex gap-3">
                                 <div class="d-flex w-100 p-3 header__measurement-type">
-                                    <input type="text" class="header__calculator-input" placeholder="0">
+                                    <input type="text" class="header__calculator-input" placeholder="0" id="feat">
                                     <h4 class="header__measurement-unit">ft</h4>
                                 </div>
                                 <div class="d-flex w-100 p-3 header__measurement-type">
-                                    <input type="text" class="header__calculator-input" placeholder="0">
+                                    <input type="text" class="header__calculator-input" placeholder="0" id="inches">
                                     <h4 class="header__measurement-unit">in</h4>
                                 </div>
                             </div>
@@ -77,32 +77,30 @@
                             <label class="header__calculator-label">Weight</label>
                             <div class="d-flex gap-3">
                                 <div class="d-flex w-100 p-3 header__measurement-type">
-                                    <input type="text" class="header__calculator-input" placeholder="0">
+                                    <input type="text" class="header__calculator-input" placeholder="0" id="stone">
                                     <h4 class="header__measurement-unit">st</h4>
                                 </div>
                                 <div class="d-flex w-100 p-3 header__measurement-type">
-                                    <input type="text" class="header__calculator-input" placeholder="0">
+                                    <input type="text" class="header__calculator-input" placeholder="0" id="pounds">
                                     <h4 class="header__measurement-unit">lbs</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="header__result">
-                        <div class="header__result-welcome d-none">
+                        <div class="header__result-welcome">
                             <h4 class="header__result-welcome-heading">Welcome!</h4>
                             <p class="header__result-welcome-description m-0">
                                 Enter your height and weight and you'll see your BMI result here
                             </p>
                         </div>
-                        <div class="header__result-info">
+                        <div class="header__result-info d-none">
                             <div class="header__result-answer">
                                 <p class="header__result-answer-text">Your BMI is...</p>
-                                <h1 class="header__result-answer-heading">23.4</h1>
+                                <h1 class="header__result-answer-heading">0</h1>
                             </div>
                             <div class="header__result-description">
-                                <p class="header__result-description-info">
-                                    Your BMI suggests you're a healthy weight. Your ideal weight is between <strong class="header__result-info-value">63.3kg - 85.2kg</strong>
-                                </p>
+                                <p class="header__result-description-info"></p>
                             </div>
                         </div>
                     </div>
