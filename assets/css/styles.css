@@ -67,6 +67,56 @@
     gap: 16px;
 }
 
+.header__measurement-label {
+    font-weight: 600;
+    font-size: var(--body-size-m);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--color-gunmetal);
+}
+
+.header__measurement-radio {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 31px;
+    height: 31px;
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.header__measurement-radio:hover {
+    border-color: var(--color-blue);
+}
+
+.header__measurement-radio::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 15px;
+    height: 15px;
+    background-color: var(--color-blue);
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform .5s ease;
+}
+
+.header__measurement-radio:checked {
+    background-color: var(--color-blue-opacity);
+    border: none;
+}
+
+.header__measurement-radio:checked::before {
+    transform: scale(1);
+    top: 9px;
+    left: 9px;
+    width: 14px;
+    height: 14px;
+}
+
 .header__measurement--imperial {
     display: none;
     gap: 0 !important;
@@ -84,6 +134,11 @@
     border-radius: 12px;
     justify-content: space-between;
     align-items: center;
+}
+
+.header__measurement-type:hover,
+.header__measurement-type:has(.header__calculator-input:focus) {
+    border-color: var(--color-blue);
 }
 
 .header__measurement-unit {
