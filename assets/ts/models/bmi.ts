@@ -7,6 +7,14 @@ export abstract class BMI {
         this._height = height;
     }
 
+    public set Weight(weight: number) {
+        this._weight = weight;
+    }
+
+    public set Height(height: number) {
+        this._height = height;
+    }
+
     public abstract calculateBMI(): number;
 
     public abstract get Description(): string;
