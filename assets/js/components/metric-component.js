@@ -18,6 +18,8 @@ export class MetricsComponent {
             return;
         let weightValue = parseFloat(this.weight.value);
         let heightValue = parseFloat(this.height.value);
+        if (isNaN(weightValue) || isNaN(heightValue))
+            return;
         let bmi = new MetricsBMI(weightValue, heightValue);
         document.querySelector(".header__result-answer-heading").textContent = bmi.calculateBMI().toFixed(2).toString();
         document.querySelector(".header__result-info").classList.remove("d-none");
