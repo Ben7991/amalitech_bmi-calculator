@@ -1,5 +1,4 @@
-"use strict";
-class ImperialConvertor {
+export class ImperialConvertor {
     static convertFeetToInchesInHeight(feet) {
         return feet * 12;
     }

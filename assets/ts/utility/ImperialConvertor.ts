@@ -1,4 +1,4 @@
-abstract class ImperialConvertor {
+export abstract class ImperialConvertor {
     public static convertFeetToInchesInHeight(feet: number): number {
         return feet * 12;
     }
